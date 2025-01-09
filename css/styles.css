@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+}
+
+/* .sidebar {
+    width: 450px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #e9ecef;
+    padding-left: 150px;
+} */
+
+.sidebar {
+    width: 250px;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-right: 1px solid #e9ecef;
+
+}
+
+.main-content {
+    flex: 1;
+    padding: 40px;
+
+}
+
+
+
+.nav-link {
+    display: block;
+    padding: 8px 0;
+    color: #E82561;
+    text-decoration: none;
+    margin: 4px 0;
+}
+
+.nor-link {
+
+    padding: 8px 0;
+    color: #E82561;
+    text-decoration: none;
+    margin: 4px 0;
+}
+
+
+.nav-link:hover {
+    color: #E82561;
+}
+
+.nav-link.active {
+    background-color: #e9ecef;
+    padding: 8px;
+    border-radius: 4px;
+    font-style: bold;
+}
+
+.search-box {
+    width: 100%;
+    padding: 8px;
+    margin: 20px 0;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin: 30px 0 15px 0;
+}
+
+p {
+    line-height: 1.6;
+    color: #495057;
+    margin-bottom: 20px;
+}
+
+.notes-list {
+    list-style: none;
+}
+
+.notes-list li {
+    margin: 10px 0;
+}
+
+.notes-list a {
+    color: #E82561;
+    text-decoration: none;
+}
+
+.notes-list a:hover {
+    text-decoration: underline;
+}
+
+
+
+.course-section {
+    margin-bottom: 40px;
+}
+
+.course-section-single {
+    margin-bottom: 20px;
+}
+
+.lecture {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.date {
+    font-weight: bold;
+    color: #666;
+}
+
+.supplemental {
+    margin-top: 15px;
+}
+
+.supplemental ul {
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.supplemental a {
+    color: #E82561;
+    text-decoration: none;
+}
+
+.supplemental li {
+    margin-bottom: 8px;
+}
+
+.descrip {
+    margin-top: 15px;
+    
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    color: #6c757d;
+    font-size: 0.9em;
+}

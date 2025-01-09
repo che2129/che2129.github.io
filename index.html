@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHE2129 - Advanced Analytical Chemistry</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <h1>CHE2129</h1>
+        
+        <a href="#" class="nav-link active">Home</a>
+        <a href="lecture.html" class="nav-link">Lectures</a>
+        <a href="#" class="nav-link">Homeworks</a>
+        <a href="#" class="nav-link">Projects</a>
+        <a href="#" class="nav-link">Resources</a>
+    </nav>
+
+    <main class="main-content">
+        <h1>CHE2129 - Advanced Analytical Chemistry</h1>
+        <p>Học phần: Hóa học Phân tích Nâng cao</p>
+        
+        <h2>Course information</h2>
+        
+        <li style="padding-bottom: 10px;"><b>Lecture time:</b> Thursday 1:00 - 3:00 pm</li>
+        <li style="padding-bottom: 10px;"><b>Lecture location:</b> None</li>
+        <li style="padding-bottom: 10px;"><b>Instructors:</b><a class="nor-link" href="https://scholar.google.com.vn/citations?user=zlpWLQQAAAAJ&hl=vi"> Assoc. Prof. Dr. Ta Thi Thao</a> 
+            & <a class="nor-link" href="https://scholar.google.com/citations?user=hkzaSA0AAAAJ&hl=vi"> Dr. Pham Gia Bach</a> </li>
+        <li style="padding-bottom: 10px;"><b>Assistant:</b><a class="nor-link" href="https://ngmsonn.github.io/"> Nguyen Manh Son</a></li>
+        <li style="padding-bottom: 10px;"><b>Prerequisites:</b> None</li>
+
+        <h2>Course activities</h2>
+        <li style="padding-bottom: 10px;"><a class="nor-link" href="lecture.html">Lectures</a></li>
+        <li style="padding-bottom: 10px;"><a class="nor-link" href="#">Homeworks</a></li>
+        <li style="padding-bottom: 10px;"><a class="nor-link" href="#">Projects</a>: Students will complete a course project.</li>
+        <li style="padding-bottom: 10px;"><a class="nor-link" href="#">Resources</a></li>
+
+        <h2>Description</h2>
+
+        <h2>Grading</h2>
+        <p>Grading will be out of 100 as follows:</p>
+        <li style="padding-bottom: 10px;">Participation: 20%</li>
+        <li style="padding-bottom: 10px;">Midterm exam: 20%</li>
+        <li style="padding-bottom: 10px;">Final exam: 45%</li>
+
+        
+       
+    </main>
+
+    <script>
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                navLinks.forEach(l => l.classList.remove('active'));
+                e.target.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
