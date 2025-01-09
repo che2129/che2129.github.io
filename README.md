@@ -1,1 +1,1 @@
-# che2129.github.io
+# CHE2129 - Advanced Analytical Chemistry
