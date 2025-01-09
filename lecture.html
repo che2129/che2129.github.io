@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHE2129 - Advanced Analytical Chemistry</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <h1>CHE2129</h1>
+        
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="#" class="nav-link active">Lectures</a>
+        <a href="#" class="nav-link">Homework</a>
+        <a href="#" class="nav-link">Projects</a>
+        <a href="#" class="nav-link">Resources</a>
+    </nav>
+
+    <main class="main-content">
+        <h2>Lectures</h2>
+
+        <section class="course-section">
+
+            <div class="lecture" id="note1">
+                <h3>Lecture 1 - Introduction</h3>
+                <ul class="notes-list">
+                    <li><a href="#" id="note1">Slide</a></li>  
+                    <li><a href="#" id="note1">Lecture notes</a></li> 
+                </ul>
+                
+                <div class="descrip">
+                    <p>Mô tả bài giảng</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-section">
+
+            <div class="lecture" id="note2">
+                <h3>Lecture 2 - Analytical perspective</h3>
+                <ul class="notes-list">
+                    <li><a href="#" id="note1">Slide</a></li>  
+                    <li><a href="#" id="note1">Lecture notes</a></li> 
+                </ul>
+                
+                <div class="descrip">
+                    <p>Mô tả </p>
+                </div>
+                <div class="supplemental">
+                    <p>Supplemental reading:</p>
+                    <ul>
+                        <li>Chapter 17 of CS229 notes on policy gradient <a href="#">[Link]</a></li>
+                        <li>Vinyals, Oriol, et al. "Pointer networks." NeurIPS'15. <a href="#">[Link]</a></li>
+                        <li>Bello, Irwan, et al. "Neural combinatorial optimization with reinforcement learning." Workshop track of ICLR'17. <a href="#">[Link]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="course-section">
+
+            <div class="lecture" id="note2">
+                <h3>Lecture 2 - Analytical perspective</h3>
+                <ul class="notes-list">
+                    <li><a href="#" id="note1">Slide</a></li>  
+                    <li><a href="#" id="note1">Lecture notes</a></li> 
+                </ul>
+                
+                <div class="descrip">
+                    <p>Mô tả </p>
+                </div>
+                <div class="supplemental">
+                    <p>Supplemental reading:</p>
+                    <ul>
+                        <li>Chapter 17 of CS229 notes on policy gradient <a href="#">[link]</a></li>
+                        <li>Vinyals, Oriol, et al. "Pointer networks." NeurIPS'15. <a href="#">[link]</a></li>
+                        <li>Bello, Irwan, et al. "Neural combinatorial optimization with reinforcement learning." Workshop track of ICLR'17. <a href="#">[link]</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+
+
+
+        <ul class="notes-list">
+            <li><a href="#" id="note1">Lecture 1</a> - Introduction</li>
+            <li><a href="#" id="note2">Lecture 2</a> - Analytical perspective</li>
+            <li><a href="#" id="note3">Lecture 3</a> - Experiment design</li>
+            <li><a href="#" id="note4">Lecture 4</a> - Optimization of an analytical method</li>
+            <li><a href="#" id="note5">Lecture 5</a> - Multivariable analysis</li>
+            <li><a href="#" id="note6">Lecture 6</a> - Machine learning in analytical chemistry</li>
+            <li><a href="#" id="note7">Lecture 7</a> - Unsupervised learning</li>
+            <li><a href="#" id="note7">Lecture 7</a> - Supervised learning</li>   
+        </ul>
+
+    </main>
+
+    <script>
+        // Active navigation highlighting
+        const navLinks = document.querySelectorAll('.nav-link');
+        
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                navLinks.forEach(l => l.classList.remove('active'));
+                e.target.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
